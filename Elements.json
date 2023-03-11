@@ -1,0 +1,51 @@
+{
+    "commonElements": {
+        "bg": {
+            "icon": "icon to describe this element",
+            "name": "Background",
+            "actions": [
+                {
+                    "name": "add color",
+                    "values": [
+                        {
+                            "type": "color",
+                            "value": "red"
+                        },
+                        {
+                            "type": "gradient",
+                            "value": "yello-red",
+                            "req": true
+                        }
+                    ]
+                },
+                {
+                    "name": "Add Image",
+                    "values": [
+                        {
+                            "type": "image",
+                            "value": "default sample image"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "SectionConfig": {
+        "main-experience ": {
+            "bg": {
+                "icon": "icon to describe this element section specifi",
+                "actions": [
+                    {
+                        "name": "add color",
+                        "values": [
+                            {
+                                "type": "color",
+                                "value": "green"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

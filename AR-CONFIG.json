@@ -1,0 +1,179 @@
+{
+    "name": "kellogg's Game Template One",
+    "vertion": "1.0.1",
+    "screens": [
+        {
+            "name": "Loader",
+            "pageSections": [
+                {
+                    "icon": "icon to describe this element",
+                    "name": "Background",
+                    "actions": [
+                        {
+                            "name": "add color",
+                            "actionClass": "ColorContainer",
+                            "options": [
+                                {
+                                    "type": "color",
+                                    "value": "red"
+                                },
+                                {
+                                    "type": "gradient",
+                                    "value": "yello-red",
+                                    "req": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Add Image",
+                            "actionClass": "ImageContainer",
+                            "options": [
+                                {
+                                    "value": "default sample image"
+                                },
+                                {
+                                    "value": "default sample image 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "icon": "icon to describe this element",
+                    "name": "logo",
+                    "actions": [
+                        {
+                            "actionClass": "ImageContainer",
+                            "options": [
+                                {
+                                    "value": "default sample logo1"
+                                },
+                                {
+                                    "value": "default sample logo2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MAIN-EXPERIANCE",
+            "pageSections": [
+                {
+                    "name": "Instruction Panel",
+                    "actions": [
+                        {
+                            "name": "Text",
+                            "actionClass": "TextContainer",
+                            "req": true,
+                            "options": {
+                                "fonts": [
+                                    {
+                                        "value": "times"
+                                    },
+                                    {
+                                        "value": "times 1"
+                                    }
+                                ],
+                                "colors": [
+                                    {
+                                        "value": "times"
+                                    },
+                                    {
+                                        "value": "times 1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Audio",
+                    "actions": [
+                        {
+                            "name": "select audio",
+                            "actionClass": "AudioContainer",
+                            "req": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "FINAL",
+            "pageSections": [
+                {
+                    "icon": "icon to describe this element",
+                    "name": "Button",
+                    "id": "btn-one",
+                    "actions": [
+                        {
+                            "name": "replay",
+                            "actionClass": "ButtonContainer",
+                            "options": {
+                                "styles": {
+                                    "name": "select style",
+                                    "comp": "ButtonStyleContainer",
+                                    "values": [
+                                        {
+                                            "type": "btn-style1",
+                                            "value": "style name"
+                                        },
+                                        {
+                                            "type": "btn-style2",
+                                            "value": "style name"
+                                        }
+                                    ]
+                                },
+                                "Select Color": {
+                                    "name": "select style",
+                                    "actionClass": "ColorContainer",
+                                    "values": [
+                                        {
+                                            "type": "btn-style1",
+                                            "value": "style name"
+                                        },
+                                        {
+                                            "type": "btn-style2",
+                                            "value": "style name"
+                                        }
+                                    ]
+                                },
+                                "Font": {
+                                    "name": "select style",
+                                    "actionClass": "FontContainer",
+                                    "values": [
+                                        {
+                                            "type": "btn-style1",
+                                            "value": "style name"
+                                        },
+                                        {
+                                            "type": "btn-style2",
+                                            "value": "style name"
+                                        }
+                                    ]
+                                },
+                                "FontColor": {
+                                    "name": "select style",
+                                    "actionClass": "ColorContainer",
+                                    "values": [
+                                        {
+                                            "type": "color",
+                                            "value": "red"
+                                        },
+                                        {
+                                            "type": "gradient",
+                                            "value": "yello-red",
+                                            "req": true
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
