@@ -1,0 +1,81 @@
+{
+    "name": "Config Template One",
+    "version": "1.0.1",
+    "screens": [
+        {
+            "name": "Loader",
+            "pageSections": [
+                {
+                    "icon": "icon to describe this element",
+                    "name": "Background",
+                    "elements": [
+                        {
+                            "name": "add color",
+                            "actionClass": "ColorContainer"
+                        },
+                        {
+                            "name": "Add Image",
+                            "actionClass": "ImageContainer"
+                        }
+                    ]
+                },
+                {
+                    "icon": "icon to describe this element",
+                    "name": "logo",
+                    "elements": [
+                        {
+                            "actionClass": "ImageContainer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MAIN-EXPERIANCE",
+            "pageSections": [
+                {
+                    "name": "Instruction Panel",
+                    "elements": [
+                        {
+                            "name": "Text",
+                            "actionClass": "TextContainer",
+                            "req": true
+                        },
+                        {
+                            "name": "Background",
+                            "actionClass": "ColorContainer",
+                            "req": true
+                        }
+                    ]
+                },
+                {
+                    "name": "Audio",
+                    "elements": [
+                        {
+                            "name": "select audio",
+                            "actionClass": "AudioContainer",
+                            "req": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ending screen",
+            "pageSections": [
+                {
+                    "icon": "icon to describe this element",
+                    "name": "Button",
+                    "id": "btn-one",
+                    "elements": [
+                        {
+                            "name": "replay",
+                            "multiples": true,
+                            "actionClass": "ButtonContainer"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

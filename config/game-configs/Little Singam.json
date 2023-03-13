@@ -1,0 +1,164 @@
+{
+    "loader": {
+        "background": {
+            "from": "red",
+            "to": "purple",
+            "gradient": "bottom-right-to-top"
+        },
+        "loader": {
+            "id": "loader-component-style-01",
+            "position": {
+                "x": "50%",
+                "y": "70%"
+            }
+        },
+        "logo": {
+            "url": "crax logo uploaded"
+        }
+    },
+    "main": {
+        "avatar": {
+            "name": "little singham model name",
+            "id": "little-singham-model-uploaded-avatar-id"
+        },
+        "assets": [
+            {
+                "name": "info-button",
+                "id": "info-ar-icon-id-style-01",
+                "position": {
+                    "x": "-10%",
+                    "y": "10%"
+                }
+            },
+            {
+                "name": "rings",
+                "id": "crax-rings-ar-template-id <=> can-be-3d-model-or-image-user-uploaded",
+                "position": {
+                    "x": "10%",
+                    "y": "-10%"
+                }
+            }
+        ],
+        "Prompts": [
+            {
+                "name": "please pinch to zoom",
+                "id": "pinch-to-zoom-ar-object-id",
+                "actionType": "pinch-to-zoom"
+            },
+            {
+                "name": "double tap to do {some action}",
+                "id": "ar-object-id",
+                "actionType": "double-tap"
+            },
+            {
+                "name": "hold to record",
+                "id": "hold-ar-template-action-id"
+            }
+        ],
+        "instructions": {
+            "background": {
+                "id": "user-uploaded-3d-model-or-image",
+                "type": "model|image",
+                "size": {
+                    "width": "100px",
+                    "height": "100px"
+                },
+                "position": {
+                    "x": "20%",
+                    "y": "20%"
+                }
+            },
+            "header": {
+                "text": "Instructions",
+                "position": {
+                    "x": "10%",
+                    "y": "10%"
+                },
+                "customSytles": {
+                    "font": "Arial",
+                    "font-size": "12px",
+                    "color": "white"
+                }
+            },
+            "body": [
+                {
+                    "text": "little singham is a fictional character",
+                    "position": {
+                        "x": "20%",
+                        "y": "10%"
+                    },
+                    "customSytles": {
+                        "font": "Arial",
+                        "font-size": "12px",
+                        "color": "white"
+                    }
+                },
+                {
+                    "text": "You can Easily Interact with the character via our Ar platform",
+                    "position": {
+                        "x": "20%",
+                        "y": "10%"
+                    },
+                    "customSytles": {
+                        "font": "Arial",
+                        "font-size": "12px",
+                        "color": "white"
+                    }
+                }
+            ]
+        }
+    },
+    "ending": {
+        "screenshot": {
+            "withLogo": true,
+            "withPrompts": false,
+            "id": "ending-ar-template-id",
+            "customeStyles": {
+                "border": "1px solid red",
+                "border-radius": "10px"
+            }
+        },
+        "Background": {
+            "from": "red",
+            "to": "orange",
+            "gradient": "bottom-right-to-top"
+        },
+        "buttons": [
+            {
+                "type": "retake",
+                "style": "btn-style-01",
+                "positions": {
+                    "x": "45%",
+                    "y": "60%"
+                }
+            },
+            {
+                "type": "download",
+                "style": "btn-style-02",
+                "cutom-styles": {
+                    "font": "Arial",
+                    "font-size": "12px",
+                    "color": "red"
+                },
+                "positions": {
+                    "x": "25%",
+                    "y": "70%"
+                }
+            },
+            {
+                "type": "share",
+                "style": "btn-style-03",
+                "cutom-styles": {
+                    "font": "Arial",
+                    "font-size": "12px",
+                    "color": "red",
+                    "background-color": "blue"
+                },
+                "positions": {
+                    "x": "60%",
+                    "y": "70%"
+                }
+            }
+        ]
+    }
+}

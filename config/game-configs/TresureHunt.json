@@ -1,0 +1,256 @@
+{
+    "common-assets": {
+        "logo": "business logo uploaded | default logo from database"
+    },
+    "loader": {
+        "background": {
+            "from": "red",
+            "to": "purple",
+            "gradient": "bottom-right-to-top"
+        },
+        "loader": {
+            "id": "loader-component-style-01",
+            "position": {
+                "x": "50%",
+                "y": "70%"
+            }
+        },
+        "logo": {
+            "position": {
+                "x": "48%",
+                "y": "48%"
+            }
+        }
+    },
+    "main": {
+        "assets": [
+            {
+                "name": "trees",
+                "id": "trees-tresure-hunt-model-id <=> can-be-3d-model-or-image-user-uploaded"
+            },
+            {
+                "name": "rocks",
+                "id": "rocks-tresure-hunt-model-id"
+            },
+            {
+                "name": "treasure chest",
+                "id": "chest-tresure-hunt-model-id <=> can-be-3d-model-or-image-user-uploaded"
+            },
+            {
+                "name": "gems from flower",
+                "id": "gems-ar-template-id <=> can-be-3d-model-or-image-user-uploaded",
+                "score": "10",
+                "sound": "audio-file-uploaded|default gem collectible sound"
+            },
+            {
+                "name": "info-button",
+                "id": "info-ar-icon-id-style-01",
+                "position": {
+                    "x": "-10%",
+                    "y": "10%"
+                }
+            },
+            {
+                "name": "timer",
+                "id": "timer-ar-object-id",
+                "style": "timer-style-01",
+                "value": "60"
+            },
+            {
+                "name": "score",
+                "id": "score-ar-object-id",
+                "style": "score-style-02",
+                "value": "100"
+            }
+        ],
+        "prompts": [
+            {
+                "name": "tap on the chest to open",
+                "id": "check-open-promt-id"
+            },
+            {
+                "name": "move around to collect chupa chups",
+                "id": "mobile-move-around-prompt-id"
+            }
+        ], 
+        "instructions": {
+            "background": {
+                "id": "user-uploaded-3d-model-or-image",
+                "type": "model|image",
+                "size": {
+                    "width": "100px",
+                    "height": "100px"
+                },
+                "position": {
+                    "x": "20%",
+                    "y": "20%"
+                }
+            },
+            "header": {
+                "text": "Instructions",
+                "position": {
+                    "x": "10%",
+                    "y": "10%"
+                },
+                "customSytles": {
+                    "font": "Arial",
+                    "font-size": "12px",
+                    "color": "red"
+                }
+            },
+            "body": [
+                {
+                    "text": "scan to move around to find hidden",
+                    "position": {
+                        "x": "60%",
+                        "y": "20%"
+                    },
+                    "customSytles": {
+                        "font": "Arial",
+                        "font-size": "12px",
+                        "color": "white"
+                    }
+                },
+                {
+                    "url": "uploaded chupa chups logo",
+                    "position": {
+                        "x": "60%",
+                        "y": "30%"
+                    },
+                    "customSytles": {
+                        "font": "Arial",
+                        "font-size": "12px",
+                        "color": "white"
+                    }
+                },
+                {
+                    "url": "icon to demonstrate move around - uploaded",
+                    "position": {
+                        "x": "60%",
+                        "y": "30%"
+                    },
+                    "customSytles": {
+                        "opacity": "70%"
+                    }
+                }
+            ],
+            "interactions": {
+                "play": {
+                    "id": "ar-object-id",
+                    "actionName": "play",
+                    "customStyles": {
+                        "opacity": "70%"
+                    }
+                }
+            }
+        }
+    },
+    "ending": {
+        "scoreboard": {
+            "id": "score-board-base-ar-object-id",
+            "background": {
+                "id": "ending-ar-template-background-id",
+                "customeStyles": {
+                    "border": "1px solid red",
+                    "bg-opacity": "70%"
+                }
+            },
+            "header": {
+                "text": "Congratualiations",
+                "position": {
+                    "x": "10%",
+                    "y": "10%"
+                },
+                "customSytles": {
+                    "font": "Arial",
+                    "font-size": "12px",
+                    "color": "red"
+                }
+            },
+            "body": [
+                {
+                    "text": "total Points scored",
+                    "position": {
+                        "x": "20%",
+                        "y": "10%"
+                    },
+                    "customSytles": {
+                        "font": "Arial",
+                        "font-size": "12px",
+                        "color": "white"
+                    }
+                },
+                {
+                    "type": "leaderboard-score",
+                    "position": {
+                        "x": "20%",
+                        "y": "60%"
+                    },
+                    "customSytles": {
+                        "font": "Arial",
+                        "font-size": "12px",
+                        "color": "white"
+                    }
+                },
+                {
+                    "type": "leaderboard-score-rank",
+                    "position": {
+                        "x": "20%",
+                        "y": "70%"
+                    },
+                    "customSytles": {
+                        "font": "Arial",
+                        "font-size": "12px",
+                        "color": "white"
+                    }
+                }
+            ],
+            "interactions": {
+                "submit": {
+                    "name": "submit and win",
+                    "customStyles": {
+                        "font": "open sans"
+                    }
+                }
+            }
+        },
+        "buttons": [
+            {
+                "type": "retake",
+                "style": "btn-style-01",
+                "positions": {
+                    "x": "45%",
+                    "y": "60%"
+                }
+            },
+            {
+                "type": "download",
+                "name": "download poster",
+                "style": "btn-style-02",
+                "cutom-styles": {
+                    "font": "Arial",
+                    "font-size": "12px",
+                    "color": "white"
+                },
+                "positions": {
+                    "x": "25%",
+                    "y": "70%"
+                }
+            },
+            {
+                "type": "share",
+                "style": "btn-style-03",
+                "cutom-styles": {
+                    "font": "Arial",
+                    "font-size": "12px",
+                    "color": "red",
+                    "background-color": "blue"
+                },
+                "positions": {
+                    "x": "60%",
+                    "y": "70%"
+                }
+            }
+        ]
+    }
+}
