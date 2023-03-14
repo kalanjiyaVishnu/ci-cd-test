@@ -1,4 +1,6 @@
 {
+    "id": "treasure-hunt-01",
+    "name": "treasure hunt",
     "common-assets": {
         "logo": "business logo uploaded | default logo from database"
     },
@@ -24,6 +26,10 @@
     },
     "main": {
         "assets": [
+            {
+                "name": "treasure island",
+                "id": "treasure-island-model-id"
+            },
             {
                 "name": "trees",
                 "id": "trees-tresure-hunt-model-id <=> can-be-3d-model-or-image-user-uploaded"
