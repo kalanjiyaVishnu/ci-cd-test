@@ -1,6 +1,8 @@
 {
-    "base" : "little singham base template",
-    "name" :"little singham model name",
+    "template": "<Template Id / Template Name >",
+    "projectName": " <Project Name >",
+    "projectId": "<Project Id>",
+    "tenantId": "<Tenant Name / Tenant Id>",
     "loader": {
         "background": {
             "from": "red",
@@ -8,11 +10,7 @@
             "gradient": "bottom-right-to-top"
         },
         "loader-indicator": {
-            "id": "loader-component-style-01",
-            "position": {
-                "x": "50%",
-                "y": "70%"
-            }
+            "id": "loader-component-style-01"
         },
         "logo": {
             "url": "crax logo uploaded"
@@ -38,38 +36,6 @@
                 "position": {
                     "x": "10%",
                     "y": "-10%"
-                }
-            }
-        ],
-        "Prompts": [
-            {
-                "id": "pinch-to-zoom-ar-object-id",
-                "name": "please pinch to zoom",
-                "type": "pinch-to-zoom",
-                "style": "template-style-03",
-                "cutom-styles": {
-                    "font": "Arial",
-                    "font-size": "12px",
-                    "color": "red",
-                    "background-color": "blue"
-                }
-            },
-            {
-                "id": "ar-object-id",
-                "name": "double tap to do {some action}",
-                "type": "double-tap",
-                "style": "template-style-03"
-            },
-            {
-                "id": "hold-ar-template-action-id",
-                "name": "hold to record",
-                "type": "hold",
-                "style": "template-style-03",
-                "cutom-styles": {
-                    "font": "Arial",
-                    "font-size": "12px",
-                    "color": "red",
-                    "background-color": "blue"
                 }
             }
         ],

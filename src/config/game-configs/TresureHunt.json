@@ -1,9 +1,8 @@
 {
-    "id": "treasure-hunt-01",
-    "name": "treasure hunt",
-    "common-assets": {
-        "logo": "business logo uploaded | default logo from database"
-    },
+    "template": "<Template Id / Template Name >",
+    "projectName": " <Project Name >",
+    "projectId": "<Project Id>",
+    "tenantId": "<Tenant Name / Tenant Id>",
     "loader": {
         "background": {
             "from": "red",
@@ -11,17 +10,10 @@
             "gradient": "bottom-right-to-top"
         },
         "loader": {
-            "id": "loader-component-style-01",
-            "position": {
-                "x": "50%",
-                "y": "70%"
-            }
+            "id": "loader-component-style-01"
         },
         "logo": {
-            "position": {
-                "x": "48%",
-                "y": "48%"
-            }
+            "url": "crax logo uploaded"
         }
     },
     "main": {
@@ -69,16 +61,6 @@
                 "value": "100"
             }
         ],
-        "prompts": [
-            {
-                "name": "tap on the chest to open",
-                "id": "check-open-promt-id"
-            },
-            {
-                "name": "move around to collect chupa chups",
-                "id": "mobile-move-around-prompt-id"
-            }
-        ], 
         "instructions": {
             "background": {
                 "id": "user-uploaded-3d-model-or-image",
